@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact page</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,300;0,400;1,300;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- navigation bar code -->
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <ion-icon class="fa" name="close-circle" onclick="hideMenu()"></ion-icon>
+        <ul>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        </ul>
+      </div>
+      <ion-icon class="fa" name="menu" onclick="showMenu()"></ion-icon>
+    </nav>
+    <h1>Contact Us</h1>
+  </section>
+
+
+
+
+
+  <!-- contact Us -->
+  <section class="location">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30464.799112970755!2d78.5499997!3d17.358925799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb98aeadc10291%3A0x6e2e7faa27222ade!2sL.%20B.%20Nagar%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1744984291672!5m2!1sen!2sin"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+
+  <section class="contact-us">
+    <div class="row">
+      <div class="contact-col">
+        <div>
+          <ion-icon class="fa" name="home"></ion-icon>
+          <span>
+            <h5>XYZ Road, ABC Building</h5>
+            <p>Hyderabad,Telangana, India</p>
+          </span>
+        </div>
+
+
+        <div class="contact-col">
+          <ion-icon class="fa" name="call-outline"></ion-icon>
+          <span>
+            <h5>+1 0123456789</h5>
+            <p>Monday to Saturday, 9Am to 6pm</p>
+          </span>
+        </div>
+
+        <div class="contact-col">
+          <ion-icon class="fa" name="mail-outline"></ion-icon>
+          <span>
+            <h5>Eduford@gmail.com</h5>
+            <p>Email us your query</p>
+          </span>
+        </div>
+      </div>
+        <div class="contact-col">
+         <form action="">
+          <input type="text" name="name" placeholder="Enter Your name" required>
+          <input type="email" name="email"  placeholder="Enter email address" required>
+          <input type="text" name="subject"  placeholder="Enter Your subject" required>
+          <textarea rows="8" name="message"  placeholder="Message" required></textarea>
+          <button type="submit" class="hero-btn red-btn">Send Message</button>
+         </form>
+
+
+
+        </div>
+      </div>
+  </section>
+
+
+  <!-- Footer -->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>&copy; 2025 [Eduford University]. All rights reserved.</p>
+    <div class="icons">
+      <ion-icon class="fa" name="logo-facebook"></ion-icon>
+      <ion-icon class="fa" name="logo-twitter"></ion-icon>
+      <ion-icon class="fa" name="logo-instagram"></ion-icon>
+      <ion-icon class="fa" name="logo-linkedin"></ion-icon>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>
